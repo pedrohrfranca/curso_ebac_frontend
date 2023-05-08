@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body > header {
+    background-color: rgb(152, 152, 152);
+    padding: 16px;
+}
+
+header .conteiner {
+    display: flex;
+    align-items: center;
+    width: 1366px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+header .conteiner a:hover {
+    text-decoration: underline;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: rgb(1, 1, 1);
+    text-decoration: none;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 34px;
+}
+
+#sports{
+    background-color: rgba(43, 140, 251, 0.1);
+}
+
+#economy {
+    background-color: rgb(255, 235, 122);
+}
+
+#entreterimento {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#tecnologia {
+    background-color: rgb(255, 116, 30);
+}
+
+#sports .articles article a {
+    color: aqua;
+}
+
+#economy .articles article a {
+    background-color: rgb(252, 115, 17);
+    color: rgb(252, 244, 14);
+}
+
+#entreterimento .articles article a {
+    background-color: rgb(26, 97, 251);
+    color: blanchedalmond;
+}
+
+#tecnologia .articles article a {
+    background-color: rgb(249, 249, 249);
+    color: black;
+}
